@@ -1,17 +1,18 @@
 //logic
 
-function createBoard(boardSize, numberofMines){
-  const board = [];
+export function createBoard(boardSize, numberofMines){
+  const board = []
   for (let x = 0; x < boardSize; x++){
-    const row = [];
+    const row = []
     for (let y = 0; y < boardSize; y++){
     const tile = {
       x,
       y,
     }
 
-    row.push(tile);
+    row.push(tile)
     }
-  return board;
+  board.push(row)
   }
+  return board;
 }
