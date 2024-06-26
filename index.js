@@ -1,6 +1,6 @@
 //Display js
 
-import { createBoard } from './minesweeper.js'
+import { createBoard } from "./minesweeper.js"
 
 console.log(createBoard(2,2))
 /*
