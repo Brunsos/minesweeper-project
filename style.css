@@ -27,7 +27,7 @@ body {
   padding: 10px;
   grid-template-columns: repeat(var(--size), 60px);
   grid-template-rows: repeat(var(--size), 60px);
-  gap: 4px;
+  gap: 1px;
   background-color: #777;
 }
 
@@ -38,7 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  border: 2px solid #BBB;
+  border: 1px solid #BBB;
   user-select: none;
 }
 
